@@ -23,8 +23,6 @@ Connected = False  # global variable for the state of the connection
 client_name="pub"
 broker_address = "127.0.0.1"  # Broker address
 port = 1883  # Broker port
-user = "admin"  # Connection username
-password = "hivemq"  # Connection password
 curr=location_generator()
 
 client = mqttClient.Client(client_name)  # create new instance
