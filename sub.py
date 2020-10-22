@@ -38,12 +38,12 @@ client.on_message = on_message  # attach function to callback
 client.connect(broker_address, port=port)  # connect to broker
 
 client.loop_start()  # start the loop
-client.subscribe("location/pub")
+#Task1 : Write your code here
+client.subscribe(" ")
 
 while Connected != True:  # Wait for connection
     time.sleep(0.1)
 
-# client.subscribe("ac/temperature")
 
 try:
     while True:
